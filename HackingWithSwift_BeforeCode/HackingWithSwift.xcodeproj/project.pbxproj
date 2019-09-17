@@ -158,9 +158,11 @@
 				TargetAttributes = {
 					519AE1482194787D001F5CFF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					519AE15C2194787E001F5CFF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 519AE1482194787D001F5CFF;
 					};
 				};
@@ -377,15 +379,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P768VTR66A;
 				INFOPLIST_FILE = HackingWithSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HackingWithSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talismanmobile.refactormvc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,15 +397,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P768VTR66A;
 				INFOPLIST_FILE = HackingWithSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HackingWithSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talismanmobile.refactormvc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -414,7 +416,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P768VTR66A;
 				INFOPLIST_FILE = HackingWithSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,7 +425,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HackingWithSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackingWithSwift.app/HackingWithSwift";
 			};
@@ -435,7 +437,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P768VTR66A;
 				INFOPLIST_FILE = HackingWithSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,7 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HackingWithSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackingWithSwift.app/HackingWithSwift";
 			};
