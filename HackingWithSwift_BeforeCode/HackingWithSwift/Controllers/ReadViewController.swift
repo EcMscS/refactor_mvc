@@ -10,12 +10,10 @@ import UIKit
 import WebKit
 
 //Simple Web View Wrapper
-class ReadViewController: UIViewController, WKNavigationDelegate {
+class ReadViewController: UIViewController, Storyboarded {
     var webView = WKWebView()
     var project: Project!
     var navigationDelegate = NavigationDelegate()
-    
-    let allowedSites = ["apple.com", "hackingwithswift.com"]
 
     override func loadView() {
         webView.navigationDelegate = navigationDelegate
@@ -29,18 +27,5 @@ class ReadViewController: UIViewController, WKNavigationDelegate {
         title = project.title
 
         webView.load("https://www.hackingwithswift.com/read/\(project.number)/overview") //Separated into WebView Extension
-    }
-
-    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        if let host = navigationAction.request.url?.host {
-            if allowedSites.contains(where: host.contains) {
-                decisionHandler(.allow)
-                return
-            } else {
-                print("Disallowed invalid site: \(host).")
-            }
-        }
-
-        decisionHandler(.cancel)
     }
 }

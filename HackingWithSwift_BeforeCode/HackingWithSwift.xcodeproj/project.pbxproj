@@ -20,6 +20,9 @@
 		596F9DC82336084B00A63705 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DC72336084B00A63705 /* DetailView.swift */; };
 		596F9DCA23360B8100A63705 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DC923360B8100A63705 /* NavigationDelegate.swift */; };
 		596F9DCC2336F73B00A63705 /* WebView+LoadString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DCB2336F73B00A63705 /* WebView+LoadString.swift */; };
+		596F9DCE2337199D00A63705 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DCD2337199D00A63705 /* Coordinator.swift */; };
+		596F9DD023371A3100A63705 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DCF23371A3100A63705 /* MainCoordinator.swift */; };
+		596F9DD223371BF800A63705 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F9DD123371BF800A63705 /* Storyboarded.swift */; };
 		59E8CEF72331F2E400A6D23D /* Bundle+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8CEF62331F2E400A6D23D /* Bundle+Decoding.swift */; };
 		59E8CEFC2331F83E00A6D23D /* ProjectDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8CEFB2331F83E00A6D23D /* ProjectDataSource.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,9 @@
 		596F9DC72336084B00A63705 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		596F9DC923360B8100A63705 /* NavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		596F9DCB2336F73B00A63705 /* WebView+LoadString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView+LoadString.swift"; sourceTree = "<group>"; };
+		596F9DCD2337199D00A63705 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		596F9DCF23371A3100A63705 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		596F9DD123371BF800A63705 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		59E8CEF62331F2E400A6D23D /* Bundle+Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decoding.swift"; sourceTree = "<group>"; };
 		59E8CEFB2331F83E00A6D23D /* ProjectDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,6 @@
 				519AE1532194787E001F5CFF /* Assets.xcassets */,
 				519AE1552194787E001F5CFF /* LaunchScreen.storyboard */,
 				519AE1582194787E001F5CFF /* Info.plist */,
-				596F9DC923360B8100A63705 /* NavigationDelegate.swift */,
 			);
 			path = HackingWithSwift;
 			sourceTree = "<group>";
@@ -122,8 +127,9 @@
 			children = (
 				519AE17021947AB5001F5CFF /* projects.json */,
 				519AE16E219479E3001F5CFF /* Project.swift */,
-				59E8CEF62331F2E400A6D23D /* Bundle+Decoding.swift */,
 				59E8CEFB2331F83E00A6D23D /* ProjectDataSource.swift */,
+				59E8CEF62331F2E400A6D23D /* Bundle+Decoding.swift */,
+				596F9DC923360B8100A63705 /* NavigationDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +149,9 @@
 				519AE14E2194787D001F5CFF /* ViewController.swift */,
 				519AE16C21947911001F5CFF /* DetailViewController.swift */,
 				519AE17221948C5A001F5CFF /* ReadViewController.swift */,
+				596F9DCD2337199D00A63705 /* Coordinator.swift */,
+				596F9DCF23371A3100A63705 /* MainCoordinator.swift */,
+				596F9DD123371BF800A63705 /* Storyboarded.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,11 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E8CEFC2331F83E00A6D23D /* ProjectDataSource.swift in Sources */,
+				596F9DD023371A3100A63705 /* MainCoordinator.swift in Sources */,
 				596F9DC82336084B00A63705 /* DetailView.swift in Sources */,
 				519AE16D21947911001F5CFF /* DetailViewController.swift in Sources */,
 				519AE14F2194787D001F5CFF /* ViewController.swift in Sources */,
+				596F9DD223371BF800A63705 /* Storyboarded.swift in Sources */,
 				596F9DCC2336F73B00A63705 /* WebView+LoadString.swift in Sources */,
 				596F9DCA23360B8100A63705 /* NavigationDelegate.swift in Sources */,
+				596F9DCE2337199D00A63705 /* Coordinator.swift in Sources */,
 				59E8CEF72331F2E400A6D23D /* Bundle+Decoding.swift in Sources */,
 				519AE14D2194787D001F5CFF /* AppDelegate.swift in Sources */,
 				519AE16F219479E3001F5CFF /* Project.swift in Sources */,
